@@ -1,28 +1,33 @@
 *
 {
-    text-align: center;
-    cursor: url("cursor.png"), pointer;
+    margin: 0;
+    cursor: url("pointer.png"), pointer;
 }
 body, button
 {
     font-family: 'Silkscreen', cursive;
     background-color: rgb(132, 172, 248);
 }
+html, body 
+{
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 body
 {
-    
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    align-items: center;
     justify-content: center;
     vertical-align: middle;
 }
+.count
+{
+    padding-top: 22vh;
+}
 .main-contain
-{   
-    width: 80vw;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-evenly;
-    align-self:center;
+{
+    width: 100vw;
 }
 label
 {
