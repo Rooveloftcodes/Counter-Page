@@ -4,22 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-        <title>Document</title>
+        <title>Counter-Page</title>
     </head>
     <body>
-        <div class="count">
-            <label id="count">0</label>
+        <div class="main">
+            <div class="count">
+                <label id="count">0</label>
+            </div>
+            <div class="main-buttons">
+                <button class="func-btn" id="increase">Increase</button>                
+                <button class="func-btn" id="reset">Reset</button>
+                <button class="func-btn" id="decrease">Decrease</button>
+            </div>
         </div>
-        
-        <div class="main-contain">
-            <button id="decrease">Decrease</button>
-            <button id="reset">Reset</button>
-            <button id="increase">Increase</button>
-        </div>
+        <!--<div class="credit">
+            Built & designed by Shaunak Ghosh
+        </div>-->
         <script src="counter.js"></script>
     </body>
 </html>
